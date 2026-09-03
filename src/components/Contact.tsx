@@ -48,16 +48,16 @@ export default function Contact() {
             <div>
               <div className="flex items-center gap-2 font-mono text-xs text-[#CCFF00] mb-4">
                 <Mail className="h-4 w-4" />
-                <span className="tracking-widest uppercase">// 07. INITIATE COLLABORATION</span>
+                <span className="tracking-widest uppercase">{"// 07. INITIATE COLLABORATION"}</span>
               </div>
               <h2 className="font-display text-6xl sm:text-7xl lg:text-8xl font-black tracking-tighter uppercase leading-none text-white">
-                LET'S BUILD<br />
+                LET&apos;S BUILD<br />
                 <span className="text-[#CCFF00]">TOGETHER.</span>
               </h2>
             </div>
 
             <p className="font-body text-base sm:text-lg text-graphite-600 font-light leading-relaxed">
-              Have an upcoming product idea, full-stack application requirement, or design system refactor? Send over your vision and let's craft an award-winning digital solution.
+              Have an upcoming product idea, full-stack application requirement, or design system refactor? Send over your vision and let&apos;s craft an award-winning digital solution.
             </p>
 
             <div className="p-6 rounded-2xl bg-[#141416] border border-white/10 space-y-4">

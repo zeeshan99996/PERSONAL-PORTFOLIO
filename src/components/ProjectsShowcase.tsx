@@ -61,7 +61,7 @@ export default function ProjectsShowcase() {
       <div className="px-4 md:px-12 max-w-7xl mx-auto mb-12">
         <div className="flex items-center gap-2 font-mono text-xs text-[#CCFF00]">
           <FolderGit2 className="h-4 w-4" />
-          <span className="tracking-widest uppercase">// 04. FEATURED WORK & CASE STUDIES</span>
+          <span className="tracking-widest uppercase">{"// 04. FEATURED WORK & CASE STUDIES"}</span>
         </div>
       </div>
 

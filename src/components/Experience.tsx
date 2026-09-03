@@ -15,7 +15,7 @@ export default function Experience() {
       <div className="max-w-7xl mx-auto">
         <div className="flex items-center gap-2 font-mono text-xs text-[#CCFF00] mb-4">
           <Briefcase className="h-4 w-4" />
-          <span className="tracking-widest uppercase">// 05. CAREER TRAJECTORY</span>
+          <span className="tracking-widest uppercase">{"// 05. CAREER TRAJECTORY"}</span>
         </div>
 
         <h2 className="font-display text-5xl sm:text-7xl lg:text-8xl font-extrabold tracking-tighter uppercase leading-none mb-16 text-white">

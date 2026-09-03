@@ -18,7 +18,7 @@ export default function Stack() {
           <div>
             <div className="flex items-center gap-2 font-mono text-xs text-[#CCFF00] mb-4">
               <Cpu className="h-4 w-4" />
-              <span className="tracking-widest uppercase">// 03. TECHNICAL ECOSYSTEM</span>
+              <span className="tracking-widest uppercase">{"// 03. TECHNICAL ECOSYSTEM"}</span>
             </div>
             <h2 className="font-display text-5xl sm:text-7xl lg:text-8xl font-extrabold tracking-tighter uppercase leading-none text-white">
               MY <span className="text-[#CCFF00]">STACK.</span>
@@ -63,7 +63,7 @@ export default function Stack() {
           <div className="lg:col-span-4 sticky top-28 p-8 rounded-2xl bg-[#141416] border border-white/10 shadow-2xl backdrop-blur-md">
             <div className="flex items-center justify-between border-b border-white/10 pb-4 mb-6">
               <span className="font-mono text-xs text-[#CCFF00] uppercase tracking-widest">
-                // {selectedTech.category}
+                {"// "} {selectedTech.category}
               </span>
               <span className="h-2 w-2 rounded-full bg-[#CCFF00] animate-pulse" />
             </div>

@@ -4,12 +4,12 @@ import { ArrowLeft } from "lucide-react";
 export default function NotFound() {
   return (
     <main className="min-h-screen bg-[#161618] text-white flex flex-col items-center justify-center p-8 text-center select-none font-sans">
-      <span className="font-mono text-sm text-[#CCFF00] font-bold">// 404 NOT FOUND</span>
+      <span className="font-mono text-sm text-[#CCFF00] font-bold">{"// 404 NOT FOUND"}</span>
       <h1 className="text-5xl sm:text-7xl font-black uppercase text-white mt-2">
         PAGE NOT FOUND
       </h1>
       <p className="text-sm text-zinc-400 max-w-md mt-4 font-body">
-        The requested URL does not exist or has been moved. Return to Zeeshan's portfolio home page.
+        The requested URL does not exist or has been moved. Return to Zeeshan&apos;s portfolio home page.
       </p>
       <Link
         href="/"

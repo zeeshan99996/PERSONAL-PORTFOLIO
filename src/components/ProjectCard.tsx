@@ -157,7 +157,7 @@ export default function ProjectCard({
               {project.number}
             </span>
             <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 font-mono text-xs text-graphite-300">
-              {project.category} // {project.year}
+              {project.category} {"//"} {project.year}
             </span>
           </div>
 

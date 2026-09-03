@@ -54,7 +54,7 @@ export default function Services() {
           <div className="lg:col-span-6 space-y-4">
             <div className="flex items-center gap-2 font-mono text-xs text-[#CCFF00] mb-2">
               <Layers className="h-4 w-4" />
-              <span className="tracking-widest uppercase">// 02. CAPABILITIES & SERVICES</span>
+              <span className="tracking-widest uppercase">{"// 02. CAPABILITIES & SERVICES"}</span>
             </div>
 
             {/* Services Accordion List */}

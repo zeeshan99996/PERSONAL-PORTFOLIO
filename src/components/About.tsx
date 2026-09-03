@@ -97,7 +97,7 @@ export default function About() {
             </h2>
 
             <p className="about-bio font-body text-lg sm:text-2xl lg:text-3xl text-graphite-600 font-light leading-relaxed pt-1">
-              "{PORTFOLIO_DATA.personal.bio}"
+              &quot;{PORTFOLIO_DATA.personal.bio}&quot;
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-3 font-mono text-xs sm:text-sm text-graphite-400">

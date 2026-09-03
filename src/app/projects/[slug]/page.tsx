@@ -38,9 +38,9 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
         <div className="border-b border-white/10 pb-12 mb-12">
           <div className="flex items-center gap-3 font-mono text-xs text-graphite-400 mb-4">
             <span className="text-[#CCFF00] font-bold">{project.number}</span>
-            <span>//</span>
+            <span>{"//"}</span>
             <span>{project.category}</span>
-            <span>//</span>
+            <span>{"//"}</span>
             <span>{project.year}</span>
           </div>
 
@@ -152,7 +152,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
             data-cursor="NEXT"
             className="group text-right"
           >
-            <span className="block font-mono text-xs text-[#CCFF00]">{nextProject.number} // {nextProject.category}</span>
+            <span className="block font-mono text-xs text-[#CCFF00]">{nextProject.number} {"//"} {nextProject.category}</span>
             <span className="font-display text-3xl sm:text-5xl font-black uppercase text-white group-hover:text-[#CCFF00] transition-colors">
               {nextProject.title} →
             </span>
