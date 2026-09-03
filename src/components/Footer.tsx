@@ -21,7 +21,7 @@ export default function Footer() {
 
         <div className="flex items-center gap-6">
           <a
-            href={PORTFOLIO_DATA.personal.github}
+            href={PORTFOLIO_DATA.personal.socials.github}
             target="_blank"
             rel="noreferrer"
             className="hover:text-[#CCFF00] transition-colors"
@@ -30,7 +30,7 @@ export default function Footer() {
             <Github className="h-4 w-4" />
           </a>
           <a
-            href={PORTFOLIO_DATA.personal.linkedin}
+            href={PORTFOLIO_DATA.personal.socials.linkedin}
             target="_blank"
             rel="noreferrer"
             className="hover:text-[#CCFF00] transition-colors"
@@ -39,7 +39,7 @@ export default function Footer() {
             <Linkedin className="h-4 w-4" />
           </a>
           <a
-            href={PORTFOLIO_DATA.personal.twitter}
+            href={PORTFOLIO_DATA.personal.socials.twitter}
             target="_blank"
             rel="noreferrer"
             className="hover:text-[#CCFF00] transition-colors"
